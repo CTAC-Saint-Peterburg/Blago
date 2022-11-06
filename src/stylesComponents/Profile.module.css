@@ -3,11 +3,30 @@
   margin: 0 auto;
   margin-top: 20px;
   padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
   background-color: #343330;
   border-radius: 12px;
   width: 80%;
+  max-width: 800px;
   height: 200px;
+  font-family: Arial;
+  font-weight: 600;
 }
-h1 {
+.profileh1 {
+  text-align: center;
+  color: #c6dc8b;
   margin: 0 0 0 0;
+}
+.profileh2 {
+  text-align: center;
+  color: #bcf61f;
+  margin: 0 0 0 0;
+}
+.divprofile {
+  /* display: flex; */
+  justify-content: center;
+  background-color: #152221;
+  border-radius: 12px;
 }
