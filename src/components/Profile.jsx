@@ -5,8 +5,10 @@ export default function Profile() {
       <div className={styles.divprofile}>
         <h1 className={styles.profileh1}>Balance</h1>
         <h2 className={styles.profileh2}>1002¥</h2>
-        <button>Пополнить</button>
-        <button>Снять</button>
+        <div className={styles.divbtn}>
+          <button className={styles.acceptbtn}>Пополнить</button>
+          <button className={styles.removebtn}>Снять</button>
+        </div>
       </div>
       <div className={styles.divprofile}>
         <h1 className={styles.profileh1}>Profile</h1>

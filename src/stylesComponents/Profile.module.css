@@ -21,8 +21,35 @@
 }
 .profileh2 {
   text-align: center;
+  font-size: 36px;
   color: #bcf61f;
-  margin: 0 0 0 0;
+  margin: 10px 0 0 0;
+}
+.acceptbtn {
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: aliceblue;
+}
+.divbtn {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 4px;
+}
+.removebtn {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(137, 129, 226);
+  border: none;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: aliceblue;
 }
 .divprofile {
   /* display: flex; */
