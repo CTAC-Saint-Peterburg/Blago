@@ -1,4 +1,7 @@
 import styles from "../stylesComponents/Profile.module.css";
+import bug from "../images/bug.svg";
+import message from "../images/message.svg";
+import settings from "../images/settings.svg";
 export default function Profile() {
   return (
     <div className={styles.profile}>
@@ -13,7 +16,6 @@ export default function Profile() {
       <div className={styles.divprofile}>
         <h1 className={styles.profileh1}>Profile</h1>
         <div className={styles.divprofileoptions}>
-          <div>asd</div>
           <div className={styles.divimg}>
             <img
               className={styles.imgprofile}
@@ -23,9 +25,15 @@ export default function Profile() {
             <h2 className={styles.h2imgprofile}>Username</h2>
           </div>
           <div className={styles.settingsimgprofile}>
-            <div className={styles.settingsdiv}></div>
-            <div className={styles.settingsdiv}></div>
-            <div className={styles.settingsdiv}></div>
+            <div className={styles.settingsdiv}>
+              <img src={settings} alt="sad" />
+            </div>
+            <div className={styles.settingsdiv}>
+              <img src={message} alt="sad" />
+            </div>
+            <div className={styles.settingsdiv}>
+              <img src={bug} alt="sad" />
+            </div>
           </div>
         </div>
       </div>
