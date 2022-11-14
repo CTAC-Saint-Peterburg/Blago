@@ -1,7 +1,7 @@
 import styles from "./Coinflipcard.module.css";
 export default function CoinFlipCard(props) {
   return (
-    <>
+    <div key={props.id}>
       <div className={styles.cardMain}>
         <div className={styles.cardProfiles}>
           <div>
@@ -28,6 +28,6 @@ export default function CoinFlipCard(props) {
           <button className={styles.cardButtonMore}>подробнее</button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
