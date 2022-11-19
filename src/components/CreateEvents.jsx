@@ -12,8 +12,11 @@ export default function CreateEvents() {
       <div className={styles.createeventsHeader}>
         <h1 className={styles.createeventsHeaderH1}>CreateEvents</h1>
       </div>
-      <form onSubmit={() => alert("создать событие")}>
-        <label>
+      <form
+        className={styles.createeventsForm}
+        onSubmit={() => alert("создать событие")}
+      >
+        <label className={styles.createeventsLabel}>
           событие:
           <select name="event" required>
             <option>нажми на меня</option>
@@ -25,7 +28,7 @@ export default function CreateEvents() {
 
         <Optioncard />
 
-        <button>создать событие</button>
+        <button className={styles.createeventsButton}>создать событие</button>
       </form>
     </div>
   );

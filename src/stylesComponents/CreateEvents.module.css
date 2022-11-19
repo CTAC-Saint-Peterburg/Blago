@@ -24,3 +24,25 @@
   font-weight: 600;
   font-size: 26px;
 }
+.createeventsForm {
+  display: grid;
+}
+.createeventsLabel {
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: aliceblue;
+  font-family: Arial;
+}
+.createeventsButton {
+  margin: 0 auto;
+  margin-top: 15px;
+  height: 50px;
+  width: 150px;
+  background-color: aqua;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+}
