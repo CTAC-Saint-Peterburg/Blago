@@ -10,7 +10,7 @@ export default function CreateEvents() {
   return (
     <div className={styles.createevents}>
       <div className={styles.createeventsHeader}>
-        <h1 className={styles.createeventsHeaderH1}>CreateEvents</h1>
+        <h1 className={styles.createeventsHeaderH1}>Create events</h1>
       </div>
       <form
         className={styles.createeventsForm}

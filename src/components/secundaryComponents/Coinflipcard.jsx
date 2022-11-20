@@ -1,5 +1,13 @@
 import styles from "./Coinflipcard.module.css";
+import { useDispatch } from "react-redux";
+import { modalActions } from "../../store/modalcardsSlice";
 export default function CoinFlipCard(props) {
+  const dispatch = useDispatch();
+  function actionModal(e) {
+    e.preventDefault();
+    console.log(e);
+    dispatch(modalActions.display());
+  }
   return (
     <div key={props.id}>
       <div className={styles.cardMain}>
@@ -38,7 +46,9 @@ export default function CoinFlipCard(props) {
           </div>
         </div>
         <div>
-          <button className={styles.cardButtonMore}>подробнее</button>
+          <button className={styles.cardButtonMore} onClick={actionModal}>
+            подробнее
+          </button>
         </div>
       </div>
     </div>
